@@ -29,7 +29,7 @@ const connectWithRetry = () => {
 connectWithRetry();
 
 app.enable("trust proxy");
-app.use(cors({}));
+app.use(cors({})); 
 
 app.use(express.json());
 
