@@ -34,7 +34,7 @@ app.use(cors({}));
 app.use(express.json());
 
 app.get("/api/v1/", (req, res) => {
-  res.send("<h2> Hi there <h2/>");
+  res.send("<h2> Hi there. This is amazing <h2/>");
   console.log("Yah it ran");
 });
 
